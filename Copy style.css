@@ -1,0 +1,126 @@
+/*
+Primary Color: #BB3009
+Secondary Color: #47201D
+
+
+
+
+
+*/
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid #00e1ff;
+}
+.logo img {
+    width: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+    padding: 12px 40px;
+}
+nav ul li:hover{
+    background-color: #e17eff;
+    border-radius: 25px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #61f1b5;
+    font-size: larger;
+}
+nav ul li a:hover {
+    color: #6e90ff;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #ff8ce6;
+}
+
+#hero img{
+    width: 100%;
+}
+#about {
+  background-image: url(./asset/Untitled\ design.gif);
+    background-position: right;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+}
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+#product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
